@@ -1,4 +1,6 @@
-This project aims to develop a sarcasm detection model using deep learning techniques implemented with TensorFlow and Keras. The model is designed to classify text as sarcastic or non-sarcastic by leveraging advanced natural language processing (NLP) algorithms.
+**SARCASM DETECTION** 
+
+-This project aims to develop a sarcasm detection model using deep learning techniques implemented with TensorFlow and Keras. The model is designed to classify text as sarcastic or non-sarcastic by leveraging advanced natural language processing (NLP) algorithms.
 
 KEY FEATURES 
 1. PREDICTION WITH ACCURACY GREATER THAN 95%
