@@ -17,7 +17,11 @@ Padding: Sequences are padded to ensure uniform input length for the model.
 5.Model Architecture:
 
 Embedding Layer: Converts words into word embeddings.
+
+
 LSTM/GRU Layers: Capture sequential dependencies and context within the text.
+
+
 Dense Layer with Activation: Final dense layer with a sigmoid activation function to output a binary classification (sarcasm vs. non-sarcasm).
 
 6.Training Process:
