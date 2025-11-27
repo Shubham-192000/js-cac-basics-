@@ -2,10 +2,11 @@
 
 -This project aims to develop a sarcasm detection model using deep learning techniques implemented with TensorFlow and Keras. The model is designed to classify text as sarcastic or non-sarcastic by leveraging advanced natural language processing (NLP) algorithms.
 
-2. **KEY FEATURES** 
- -> PREDICTION WITH ACCURACY GREATER THAN 95%
+2. **KEY FEATURES**
    
- -> USED ADAM ALGORITHM FOR BETTER OPTIMIZATION
+ PREDICTION WITH ACCURACY GREATER THAN 95%
+   
+ USED ADAM ALGORITHM FOR BETTER OPTIMIZATION
    
 3. **ALGORITHM**:
 
@@ -13,18 +14,18 @@ The sarcasm detection model is based on a Recurrent Neural Network (RNN) archite
  
 4. **DATA PREPROCESSING**
 
--> Tokenization and Embedding: Text data is tokenized and converted into sequences of word embeddings, which capture the semantic meaning of words in a dense vector space.
--> Padding: Sequences are padded to ensure uniform input length for the model.
+**Tokenization and Embedding**: Text data is tokenized and converted into sequences of word embeddings, which capture the semantic meaning of words in a dense vector space.
+**Padding**: Sequences are padded to ensure uniform input length for the model.
 
 5.**MODEL ARCHITECTURE** 
 
--> Embedding Layer: Converts words into word embeddings.
+**Embedding Layer**: Converts words into word embeddings.
 
 
--> LSTM/GRU Layers: Capture sequential dependencies and context within the text.
+**LSTM/GRU Layers**: Capture sequential dependencies and context within the text.
 
 
--> Dense Layer with Activation: Final dense layer with a sigmoid activation function to output a binary classification (sarcasm vs. non-sarcasm).
+**Dense Layer with Activation**: Final dense layer with a sigmoid activation function to output a binary classification (sarcasm vs. non-sarcasm).
 
 6.**TRAINING PROCESS**
 
