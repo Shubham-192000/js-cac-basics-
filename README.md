@@ -15,6 +15,7 @@ The sarcasm detection model is based on a Recurrent Neural Network (RNN) archite
 4. **DATA PREPROCESSING**
 
 **Tokenization and Embedding**: Text data is tokenized and converted into sequences of word embeddings, which capture the semantic meaning of words in a dense vector space.
+
 **Padding**: Sequences are padded to ensure uniform input length for the model.
 
 5.**MODEL ARCHITECTURE** 
@@ -29,10 +30,13 @@ The sarcasm detection model is based on a Recurrent Neural Network (RNN) archite
 
 6.**TRAINING PROCESS**
 
--> The model is trained using a labeled dataset of sarcastic and non-sarcastic sentences.
--> Loss Function: Binary Crossentropy is used as the loss function to optimize the model.
--> Optimizer: Adam optimizer is employed for training, providing efficient and adaptive learning rates.
--> Metrics: The model's performance is evaluated using metrics such as accuracy, precision, recall, and F1-score to assess its effectiveness.
+   The model is trained using a labeled dataset of sarcastic and non-sarcastic sentences.
+   
+   Loss Function: Binary Crossentropy is used as the loss function to optimize the model.
+   
+   Optimizer: Adam optimizer is employed for training, providing efficient and adaptive learning rates.
+   
+   Metrics: The model's performance is evaluated using metrics such as accuracy, precision, recall, and F1-score to assess its effectiveness.
 
 7.**DEPLOYMENT**
 
